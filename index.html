@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <title>Happy Coaching</title>
+
+    <!-- css file link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- preloader start here -->
+    <div
+      class="preloader bg-theme-color fixed top-0 left-0 w-full h-full z-50 overflow-hidden"
+    >
+      <div
+        class="preloader-inner absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4"
+      >
+        <div class="preloader-icon w-[70px] h-[70px] inline-block p-0">
+          <span
+            class="absolute inline-block w-[70px] h-[70px] rounded-full bg-white animate-preloader"
+          ></span>
+          <span
+            class="absolute inline-block w-[70px] h-[70px] rounded-full bg-white animate-preloader preloader-delay"
+          ></span>
+        </div>
+      </div>
+    </div>
+    <!-- preloader ending here -->
+
+    <!-- ==========Header Section Starts Here========== -->
+    <header class="header py-[10px]">
+      <div class="container px-2 xl:px-0 max-w-[1280px] mx-auto">
+        <div
+          class="flex flex-col lg:flex-row justify-between items-center relative"
+        >
+          <div
+            class="logo w-full lg:w-auto grid lg:block place-content-center lg:place-content-start py-1"
+          >
+            <a href="index.html">
+              <img
+                src="./assets/images/logo.png"
+                alt="Happy Coaching"
+                srcset=""
+              />
+            </a>
+          </div>
+          <div class="main-menu">
+            <div
+              class="menu-list sm:flex flex-col sm:flex-row items-center gap-[30px] absolute hidden top-[46px] left-0 sm:static w-[calc(100%-20px)] sm:w-auto mx-[10px] sm:mx-0 h-auto bg-banner-color sm:bg-transparent duration-1000 z-40"
+            >
+              <ul class="flex flex-col sm:flex-row items-center">
+                <li>
+                  <a
+                    href="#"
+                    class="py-4 lg:py-0 px-[15px] block sm:inline-block text-theme-color"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="py-4 lg:py-0 px-[15px] block sm:inline-block"
+                    >Services</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="py-4 lg:py-0 px-[15px] block sm:inline-block"
+                    >About us</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    class="py-4 lg:py-0 px-[15px] block sm:inline-block"
+                    >Extra Salespage</a
+                  >
+                </li>
+              </ul>
+              <div
+                class="header__btn grid place-content-center sm:block mb-4 sm:mb-0"
+              >
+                <a
+                  href="#"
+                  class="bg-theme-color rounded-[4px] text-sm text-white font-semibold leading-[18px] px-4 py-[11px] inline-block hover:animate-pulse"
+                  >Get your free guide now</a
+                >
+              </div>
+            </div>
+            <div class="header__bararea">
+              <div
+                class="hamburger__bar absolute w-[25px] h-[20px] top-[8px] right-[15px] grid grid-rows-3 gap-[6px] md:hidden"
+              >
+                <span
+                  class="h-[3px] w-full duration-200 origin-top-left bg-secondary-color"
+                ></span>
+                <span
+                  class="h-[3px] w-full duration-200 bg-secondary-color"
+                ></span>
+                <span
+                  class="h-[3px] w-full duration-200 origin-bottom-left bg-secondary-color"
+                ></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ==========Header Section Ends Here========== -->
+
+    <!-- ==========Banner Section Starts Here========== -->
+    <section
+      class="banner bg-banner-color py-[100px] lg:py-0 relative lg:static"
+    >
+      <div class="container px-2 xl:px-0 max-w-[1280px] mx-auto lg:relative">
+        <img
+          src="./assets/images/shape-1.svg"
+          class="absolute top-[56px] left-[34px] animate-movement"
+          alt=""
+        />
+        <div class="grid grid-cols-1 lg:grid-cols-2 lg:gap-[182px]">
+          <div class="md:max-w-[545px] my-auto">
+            <p class="text-[#4A556C] text-base leading-6 mb-[6px]">
+              Proven strategies backed by science for success.
+            </p>
+            <h1
+              class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-secondary-color mb-[18px]"
+            >
+              Live life at the<br />
+              full potential
+            </h1>
+            <p class="text-sm sm:text-lg leading-[29px]">
+              I help people to discover their true potential and live a
+              fulfilling life... Discover the simple 3 steps that I dis covered
+              to hack productivity. It just works and it is begin using backed
+              by science. Wanna transform your life?
+            </p>
+            <a
+              href="#"
+              class="bg-theme-color rounded-[4px] text-sm text-white font-semibold px-4 py-[11px] hover:bg-transparent duration-200 hover:text-secondary-color border-2 border-theme-color inline-block mt-[18px]"
+              >Get your free guide now</a
+            >
+          </div>
+          <div class="mt-[100px] relative">
+            <div
+              class="p-6 w-[237px] h-[104px] flex gap-4 bg-white absolute z-40 -top-[21px] left-2/4 -translate-x-2/4 lg:translate-x-0 lg:-left-[116px]"
+            >
+              <img
+                src="./assets//images/Group_42911.svg"
+                alt=""
+                class="w-[56px] h=[56px]"
+              />
+              <div class="">
+                <h3
+                  class="font-AvertaStdB text-secondary-color text-2xl font-black -tracking-[0.52px]"
+                >
+                  100%
+                </h3>
+                <p
+                  class="AvertaStdR text-sm leading-6 font-normal text-[#4A556C] -tracking-[1.009px]"
+                >
+                  Success rate this year
+                </p>
+              </div>
+            </div>
+            <img
+              src="./assets/images/banner-human.png"
+              class="relative -bottom-[26px] inline-block"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========Banner Section Ends Here========== -->
+
+    <!-- ==========Introduction Section Start Here========== -->
+    <section class="introduction pb-[61px] pt-[117px]">
+      <div class="container px-2 xl:px-0 max-w-[1140px] mx-auto">
+        <div class="grid md:grid-cols-2 gap-[74px] mb-4">
+          <div class="relative">
+            <img
+              src="./assets/images/shape-2.png"
+              class="absolute -top-8 left-0 animate-movement"
+              alt=""
+            />
+            <h3
+              class="text-3xl xl:text-5xl font-extrabold text-secondary-color"
+            >
+              I can help you in these <br />
+              particular areas.
+            </h3>
+          </div>
+          <div class="xl:mr-[106px]">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+              veniam.
+            </p>
+            <br />
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+          </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+          <div class="p-10">
+            <figure class="mb-[26px]">
+              <img src="./assets/images/Frame-1.svg" alt="" />
+            </figure>
+            <div class="space-y-4">
+              <h4 class="text-2xl font-bold">1:1 Coaching</h4>
+              <p class="text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+                veniam.
+              </p>
+            </div>
+          </div>
+          <div class="p-10">
+            <figure class="mb-[26px]">
+              <img src="./assets/images/Frame-2.svg" alt="" />
+            </figure>
+            <div class="space-y-4">
+              <h4 class="text-2xl font-bold">Consultation</h4>
+              <p class="text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+                veniam.
+              </p>
+            </div>
+          </div>
+          <div class="p-10">
+            <figure class="mb-[26px]">
+              <img src="./assets/images/Frame-3.svg" alt="" />
+            </figure>
+            <div class="space-y-4">
+              <h4 class="text-2xl font-bold">Group Coaching Sessions</h4>
+              <p class="text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+                veniam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========Introduction Section Ends Here========== -->
+
+    <!-- ==========Reviews Section Start Here========== -->
+    <section
+      class="introduction py-20 lg:pt-[120px] lg:pb-[219px] bg-banner-color flex justify-end"
+    >
+      <div class="container px-2 xl:px-0 max-w-[1274px]">
+        <div class="xl:mr-[14px]">
+          <h2
+            class="mb-[37px] text-secondary-color text-3xl xl:text-5xl font-extrabold"
+          >
+            Hear out what my <br />
+            clients say about me.
+          </h2>
+
+          <!-- Swiper -->
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide p-12 bg-[#fefefe] hover:bg-white hover:drop-shadow-[rgba(177, 186, 200, 0.12)] duration-200 cursor-pointer"
+              >
+                <p class="text-2xl">
+                  "I gained so much <span class="font-bold">confidence</span> in
+                  my ability to connect and deepen my relationships with people.
+                  "
+                </p>
+                <h5 class="text-2xl font-bold my-[15px]">Jane</h5>
+                <div>
+                  <figure class="mb-[15px]">
+                    <img
+                      src="./assets/images/human-1.png"
+                      alt=""
+                      class="w-[70px] h-[70px] rounded-full"
+                    />
+                  </figure>
+                  <div class="text-gold-color flex gap-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide p-12 bg-[#fefefe] hover:bg-white hover:drop-shadow-[rgba(177, 186, 200, 0.12)] duration-200 cursor-pointer"
+              >
+                <p class="text-2xl">
+                  "I gained so much confidence in my ability to connect and
+                  deepen my relationships with people. "
+                </p>
+                <h5 class="text-2xl font-bold my-[15px]">Catherine</h5>
+                <div>
+                  <figure class="mb-[15px]">
+                    <img
+                      src="./assets/images/human-2.png"
+                      alt=""
+                      class="w-[70px] h-[70px] rounded-full"
+                    />
+                  </figure>
+                  <div class="text-gray-color flex gap-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide p-12 bg-[#fefefe] hover:bg-white hover:drop-shadow-[rgba(177, 186, 200, 0.12)] duration-200 cursor-pointer"
+              >
+                <p class="text-2xl">
+                  "I gained so much confidence in my ability to connect and
+                  deepen my relationships with people. "
+                </p>
+                <h5 class="text-2xl font-bold my-[15px]">Jane</h5>
+                <div>
+                  <figure class="mb-[15px]">
+                    <img
+                      src="./assets/images/human-3.png"
+                      alt=""
+                      class="w-[70px] h-[70px] rounded-full"
+                    />
+                  </figure>
+                  <div class="text-gray-color flex gap-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide p-12 bg-[#fefefe] hover:bg-white hover:drop-shadow-[rgba(177, 186, 200, 0.12)] duration-200 cursor-pointer"
+              >
+                <p class="text-2xl">
+                  "I gained so much <span class="font-bold">confidence</span> in
+                  my ability to connect and deepen my relationships with people.
+                  "
+                </p>
+                <h5 class="text-2xl font-bold my-[15px]">Jane</h5>
+                <div>
+                  <figure class="mb-[15px]">
+                    <img
+                      src="./assets/images/human-1.png"
+                      alt=""
+                      class="w-[70px] h-[70px] rounded-full"
+                    />
+                  </figure>
+                  <div class="text-gold-color flex gap-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide p-12 bg-[#fefefe] hover:bg-white hover:drop-shadow-[rgba(177, 186, 200, 0.12)] duration-200 cursor-pointer"
+              >
+                <p class="text-2xl">
+                  "I gained so much confidence in my ability to connect and
+                  deepen my relationships with people. "
+                </p>
+                <h5 class="text-2xl font-bold my-[15px]">Catherine</h5>
+                <div>
+                  <figure class="mb-[15px]">
+                    <img
+                      src="./assets/images/human-2.png"
+                      alt=""
+                      class="w-[70px] h-[70px] rounded-full"
+                    />
+                  </figure>
+                  <div class="text-gray-color flex gap-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="swiper-slide p-12 bg-[#fefefe] hover:bg-white hover:drop-shadow-[rgba(177, 186, 200, 0.12)] duration-200 cursor-pointer"
+              >
+                <p class="text-2xl">
+                  "I gained so much confidence in my ability to connect and
+                  deepen my relationships with people. "
+                </p>
+                <h5 class="text-2xl font-bold my-[15px]">Jane</h5>
+                <div>
+                  <figure class="mb-[15px]">
+                    <img
+                      src="./assets/images/human-3.png"
+                      alt=""
+                      class="w-[70px] h-[70px] rounded-full"
+                    />
+                  </figure>
+                  <div class="text-gray-color flex gap-1">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========Reviews Section Ends Here========== -->
+
+    <!-- ==========Blog Section Start Here========== -->
+    <section class="introduction pb-[61px] pt-[97px]">
+      <div class="container px-2 xl:px-0 max-w-[1154px] mx-auto">
+        <h2
+          class="mb-[63px] text-secondary-color text-[25px] sm:text-3xl xl:text-5xl font-extrabold text-center"
+        >
+          Stay Motivated, read the <br />
+          weekly blog articles.
+        </h2>
+        <div
+          class="grid gap-[37px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 mb-[53px]"
+        >
+          <div class="p-[2px]">
+            <figure>
+              <img src="./assets/images/blog-bg-1.png" alt="" class="w-full" />
+            </figure>
+            <div class="border border-[#EDEFF5] px-[27px] py-[23px]">
+              <h3 class="text-secondary-color text-2xl font-bold mb-3">
+                Balancing your love and work life.
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+                veniam.
+              </p>
+            </div>
+          </div>
+          <div class="p-[2px]">
+            <figure>
+              <img src="./assets/images/blog-bg-2.png" alt="" class="w-full" />
+            </figure>
+            <div class="border border-[#EDEFF5] px-[27px] py-[23px]">
+              <h3 class="text-secondary-color text-2xl font-bold mb-3">
+                A short break from Social Media is important.
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+                veniam.
+              </p>
+            </div>
+          </div>
+          <div class="p-[2px]">
+            <figure>
+              <img src="./assets/images/blog-bg-3.png" alt="" class="w-full" />
+            </figure>
+            <div class="border border-[#EDEFF5] px-[27px] py-[23px]">
+              <h3 class="text-secondary-color text-2xl font-bold mb-3">
+                How to be 1% Better Every Day
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+                veniam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <a
+            href="#"
+            class="bg-theme-color hover:bg-transparent duration-200 hover:text-secondary-color border-2 border-theme-color px-[62px] py-[10px] text-sm text-white rounded-[10px]"
+            >Read more blogs</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========Blog Section Ends Here========== -->
+
+    <!-- ==========Guide Section Start Here========== -->
+    <section class="pb-[139px] pt-[158px]">
+      <div class="container px-2 xl:px-0 max-w-[1115px] mx-auto">
+        <div class="grid gap-[117px] grid-cols-1 sm:grid-cols-2">
+          <div class="my-auto">
+            <h2
+              class="text-3xl xl:text-5xl font-extrabold text-secondary-color"
+            >
+              Don’t miss out on my <br />
+              ‘Live life at the full <br />
+              potential’ free guide
+            </h2>
+            <p class="text-2xl font-normal mt-[22px]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua minim
+              veniam.
+            </p>
+            <br />
+            <p class="text-[17px] font-normal">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+              quae ab illo inventore veritatis et quasi architecto beatae vitae
+              dicta sunt explicabo.
+            </p>
+            <div class="flex mt-[22px]">
+              <a
+                href="#"
+                class="bg-theme-color hover:bg-transparent duration-200 hover:text-secondary-color border-2 border-theme-color px-[43.5px] py-[10px] text-sm text-white rounded-[10px]"
+                >Get your free guide now</a
+              >
+            </div>
+          </div>
+          <div class="">
+            <figure class="inline-block relative">
+              <span
+                class="absolute -top-12 -right-12 w-24 h-24 bg-theme-color rounded-full text-sm hidden lg:flex justify-center items-center text-white"
+              >
+                Free Guide!</span
+              >
+              <img src="./assets/images/guide-section-1.svg" alt="" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========Guide Section Ends Here========== -->
+
+    <!-- ==========Session Section Start Here========== -->
+    <section class="introduction py-20 xl:pb-24">
+      <div
+        class="container px-2 xl:px-0 max-w-[1280px] mx-auto xl:border-x-[32px] border-transparent"
+      >
+        <div class="bg-banner-color rounded-3xl">
+          <div class="grid grid-cols-1 sm:grid-cols-2">
+            <div class="lg:py-16 lg:pl-16 my-5 lg:my-auto">
+              <h2
+                class="text-3xl xl:text-4xl font-extrabold text-secondary-color mb-5"
+              >
+                Get 15-Minutes Complimentary online session.
+              </h2>
+              <p class="font-inter text-[#4A556C] opacity-50">
+                Limited Period Offer. Claim Now.
+              </p>
+              <div class="mt-10 flex justify-center md:justify-start">
+                <a
+                  href="#"
+                  class="bg-theme-color hover:bg-transparent duration-200 hover:text-secondary-color border-2 border-theme-color w-11/12 sm:w-auto p-[10px] sm:px-[91.1px] sm:py-[10px] text-sm text-white rounded-[10px] inline-block text-center"
+                  >Book now</a
+                >
+              </div>
+            </div>
+            <div class="pt-12 pl-12">
+              <img
+                src="./assets/images/session.png"
+                class="rounded-br-3xl"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ==========Session Section Ends Here========== -->
+
+    <!-- ==========Footer Section Ends Here========== -->
+    <footer class="">
+      <div class="footer-top bg-banner-color py-12">
+        <div
+          class="container max-w-[1280px] mx-auto border-x-[32px] border-x-transparent"
+        >
+          <div class="flex gap-4 flex-col md:flex-row md:justify-between">
+            <div class="space-y-4">
+              <h3
+                class="text-2xl md:text-3xl font-extrabold text-secondary-color"
+              >
+                Get notified when I publish new articles
+              </h3>
+              <p class="text-lg md:text-xl text-[#4A556C]">
+                Stay up to date with the latest news, announcements, and
+                articles.
+              </p>
+            </div>
+            <div class="">
+              <form action="#" class="flex md:gap-0 flex-col lg:flex-row">
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  class="lg:mr-4 rounded-lg bg-white px-[14px] py-[9px] border border-[#d0d5dd] w-full md:min-w-[280px] focus-visible:outline-theme-color focus-visible:outline mb-4 lg:mb-0"
+                />
+                <button
+                  class="bg-theme-color rounded-lg px-[37.43px] py-[9px] border border-theme-color duration-200 hover:animate-pulse text-white"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom pt-16 pb-[170px]">
+        <div
+          class="container max-w-[1280px] mx-auto border-x-[32px] border-x-transparent"
+        >
+          <div
+            class="grid gap-6 md:gap-0 grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
+          >
+            <ul class="flex flex-col md:mr-16">
+              <li class="mb-8">
+                <img src="./assets/images/logo.png" alt="" />
+              </li>
+              <li>
+                <p class="text-[#4A556C] opacity-50">
+                  Design amazing digital experiences that create more happy in
+                  the world.
+                </p>
+              </li>
+            </ul>
+            <div class="md:mr-8">
+              <h6 class="text-secondary-color mb-4 font-extrabold">Page</h6>
+              <ul class="flex flex-col text-[#4A556C] opacity-50 space-y-3">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Extra Sales/Landingpage </a></li>
+                <li><a href="#">Free guide</a></li>
+              </ul>
+            </div>
+            <div>
+              <h6 class="text-secondary-color mb-4 font-extrabold">Contact</h6>
+              <ul class="flex flex-col text-[#4A556C] opacity-50 space-y-3">
+                <li><a href="#">+123 456 789</a></li>
+                <li><a href="#">hello@happydigital.nl</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- ==========Footer Section Ends Here========== -->
+
+    <!-- All Scripts -->
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/414948429d.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
